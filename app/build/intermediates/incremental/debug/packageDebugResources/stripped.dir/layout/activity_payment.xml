@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Payment"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/amountText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="₹0"
+            android:textColor="@color/primary"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+            <RadioButton
+                android:id="@+id/upiRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="UPI"/>
+
+            <EditText
+                android:id="@+id/upiEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Demo UPI: demo@upi"
+                android:inputType="text"
+                android:background="@drawable/edit_text_bg"/>
+
+            <RadioButton
+                android:id="@+id/cardRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Credit / Debit Card"/>
+
+            <EditText
+                android:id="@+id/cardEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Demo card: 4111111111111111"
+                android:inputType="number"
+                android:background="@drawable/edit_text_bg"/>
+
+            <RadioButton
+                android:id="@+id/codRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Cash on Delivery"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Demo payment only. No real money will be charged."
+            android:textColor="@color/gray"/>
+
+        <Button
+            android:id="@+id/payButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="PAY NOW"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/primary"/>
+    </LinearLayout>
+</ScrollView>

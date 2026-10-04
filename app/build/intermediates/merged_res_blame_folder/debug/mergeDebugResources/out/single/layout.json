@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.example.foodexpress.app-mergeDebugResources-32:/layout/activity_payment.xml",
+        "source": "com.example.foodexpress.app-main-35:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-mergeDebugResources-32:/layout/activity_feedback.xml",
+        "source": "com.example.foodexpress.app-main-35:/layout/activity_feedback.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-mergeDebugResources-32:/layout/activity_food_list.xml",
+        "source": "com.example.foodexpress.app-main-35:/layout/activity_food_list.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-mergeDebugResources-32:/layout/item_food.xml",
+        "source": "com.example.foodexpress.app-main-35:/layout/item_food.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-mergeDebugResources-32:/layout/item_cart.xml",
+        "source": "com.example.foodexpress.app-main-35:/layout/item_cart.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-mergeDebugResources-32:/layout/activity_cart.xml",
+        "source": "com.example.foodexpress.app-main-35:/layout/activity_cart.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.example.foodexpress.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-mergeDebugResources-32:/layout/activity_order_success.xml",
+        "source": "com.example.foodexpress.app-main-35:/layout/activity_order_success.xml"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.foodexpress.app-debug-33:/layout_activity_payment.xml.flat",
+        "source": "com.example.foodexpress.app-main-35:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-debug-33:/drawable_card_bg.xml.flat",
+        "source": "com.example.foodexpress.app-main-35:/drawable/card_bg.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-debug-33:/drawable_edit_text_bg.xml.flat",
+        "source": "com.example.foodexpress.app-main-35:/drawable/edit_text_bg.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-debug-33:/layout_activity_feedback.xml.flat",
+        "source": "com.example.foodexpress.app-main-35:/layout/activity_feedback.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-debug-33:/drawable_button_bg.xml.flat",
+        "source": "com.example.foodexpress.app-main-35:/drawable/button_bg.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-debug-33:/layout_activity_main.xml.flat",
+        "source": "com.example.foodexpress.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-debug-33:/layout_item_cart.xml.flat",
+        "source": "com.example.foodexpress.app-main-35:/layout/item_cart.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-debug-33:/layout_activity_cart.xml.flat",
+        "source": "com.example.foodexpress.app-main-35:/layout/activity_cart.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-debug-33:/layout_activity_order_success.xml.flat",
+        "source": "com.example.foodexpress.app-main-35:/layout/activity_order_success.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-debug-33:/layout_item_food.xml.flat",
+        "source": "com.example.foodexpress.app-main-35:/layout/item_food.xml"
+    },
+    {
+        "merged": "com.example.foodexpress.app-debug-33:/layout_activity_food_list.xml.flat",
+        "source": "com.example.foodexpress.app-main-35:/layout/activity_food_list.xml"
+    }
+]
